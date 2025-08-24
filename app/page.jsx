@@ -35,18 +35,26 @@ export default function Home() {
 
           {/** Desktop Menu */}
           <div className="hidden md:block lg:mr-20">
-            <ul className=" md:flex flex-row gap-4 lg:gap-6 lg:text-lg font-semibold text-white">
+            <ul className=" md:flex flex-row gap-8 lg:text-lg font-semibold text-white">
               <li>
-                <a href="">Home</a>
+                <a href="" className="hover:underline ">
+                  Home
+                </a>
               </li>
               <li>
-                <a href="">Stories</a>
+                <a href="" className="hover:underline">
+                  Stories
+                </a>
               </li>
               <li>
-                <a href="">Data</a>
+                <a href="" className="hover:underline">
+                  Data
+                </a>
               </li>
               <li>
-                <a href="">About</a>
+                <a href="" className="hover:underline">
+                  About
+                </a>
               </li>
             </ul>
           </div>
